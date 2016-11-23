@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/wbraun/projects/ac97-breakout/pcb/ac97_pmod.sch</source>
+    <date>Thu 03 Nov 2016 01:52:42 AM EDT</date>
+    <tool>Eeschema 4.0.4+e1-6308~48~ubuntu14.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ac97_pmod.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power Supply/" tstamps="/576B2442/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power_supply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/AC97/" tstamps="/576F6AA6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>AC97.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/PMOD Connector/" tstamps="/577ED8AD/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PMOD_conn.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U201">
+      <value>MCP1640-*/CHY</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <libsource lib="wbraun_ic_lib" part="MCP1640-*/CHY"/>
+      <sheetpath names="/Power Supply/" tstamps="/576B2442/"/>
+      <tstamp>576F65ED</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power Supply/" tstamps="/576B2442/"/>
+      <tstamp>576F669D</tstamp>
+    </comp>
+    <comp ref="L201">
+      <value>4.7u</value>
+      <footprint>wbraun_smd:SMD-1008</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/Power Supply/" tstamps="/576B2442/"/>
+      <tstamp>576F66DD</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>976k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power Supply/" tstamps="/576B2442/"/>
+      <tstamp>576F6712</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>309k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power Supply/" tstamps="/576B2442/"/>
+      <tstamp>576F6764</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power Supply/" tstamps="/576B2442/"/>
+      <tstamp>576F6793</tstamp>
+    </comp>
+    <comp ref="FB201">
+      <value>FILTER</value>
+      <footprint>wbraun_smd:SMD-0805</footprint>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/Power Supply/" tstamps="/576B2442/"/>
+      <tstamp>577EE17B</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power Supply/" tstamps="/576B2442/"/>
+      <tstamp>577EE1B6</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>LM4550</value>
+      <footprint>Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm</footprint>
+      <libsource lib="wbraun_ic_lib" part="LM4550"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>576F6D55</tstamp>
+    </comp>
+    <comp ref="C305">
+      <value>22p</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>576F6DF8</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>22p</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>576F6E2E</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>576F6E55</tstamp>
+    </comp>
+    <comp ref="R303">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>576F6EB7</tstamp>
+    </comp>
+    <comp ref="R304">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>576F6EEE</tstamp>
+    </comp>
+    <comp ref="R305">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>576F6F56</tstamp>
+    </comp>
+    <comp ref="R306">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>576F6F8F</tstamp>
+    </comp>
+    <comp ref="C304">
+      <value>22n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>576F6FE7</tstamp>
+    </comp>
+    <comp ref="J301">
+      <value>JACK_TRRS_6PINS</value>
+      <footprint>wbraun_smd:SJ-4351_X-SMT</footprint>
+      <libsource lib="wbraun_ic_lib" part="JACK_TRRS_6PINS"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>576F7B92</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577D7548</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577DA444</tstamp>
+    </comp>
+    <comp ref="C307">
+      <value>47u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577DA62A</tstamp>
+    </comp>
+    <comp ref="R308">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577DA691</tstamp>
+    </comp>
+    <comp ref="C306">
+      <value>47u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577DA958</tstamp>
+    </comp>
+    <comp ref="C311">
+      <value>47u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577DAAED</tstamp>
+    </comp>
+    <comp ref="R309">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577DAAF3</tstamp>
+    </comp>
+    <comp ref="C310">
+      <value>47u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577DAB04</tstamp>
+    </comp>
+    <comp ref="C309">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577E70B2</tstamp>
+    </comp>
+    <comp ref="P301">
+      <value>RCA_2</value>
+      <footprint>wbraun_smd:RCJ-222x</footprint>
+      <libsource lib="wbraun_ic_lib" part="RCA_2"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EA6F4</tstamp>
+    </comp>
+    <comp ref="P302">
+      <value>RCA_2</value>
+      <footprint>wbraun_smd:RCJ-222x</footprint>
+      <libsource lib="wbraun_ic_lib" part="RCA_2"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EA761</tstamp>
+    </comp>
+    <comp ref="R310">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EA874</tstamp>
+    </comp>
+    <comp ref="C314">
+      <value>220p</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EAC7F</tstamp>
+    </comp>
+    <comp ref="C312">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EAD12</tstamp>
+    </comp>
+    <comp ref="C313">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EAD89</tstamp>
+    </comp>
+    <comp ref="R311">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EAE10</tstamp>
+    </comp>
+    <comp ref="C315">
+      <value>220p</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EAE8E</tstamp>
+    </comp>
+    <comp ref="R314">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EB951</tstamp>
+    </comp>
+    <comp ref="R315">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EB9D9</tstamp>
+    </comp>
+    <comp ref="R313">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EBA62</tstamp>
+    </comp>
+    <comp ref="R312">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EBADE</tstamp>
+    </comp>
+    <comp ref="C316">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EBB66</tstamp>
+    </comp>
+    <comp ref="C317">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EBBF1</tstamp>
+    </comp>
+    <comp ref="R307">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EC6F5</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577EC799</tstamp>
+    </comp>
+    <comp ref="C308">
+      <value>0.47u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>577ED530</tstamp>
+    </comp>
+    <comp ref="X301">
+      <value>24MHz</value>
+      <footprint>wbraun_smd:Crystal_6.0x3.6</footprint>
+      <libsource lib="wbraun_ic_lib" part="CRYSTAL_SMD_4"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>57B7202E</tstamp>
+    </comp>
+    <comp ref="R316">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>57F03294</tstamp>
+    </comp>
+    <comp ref="C318">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>57F034FB</tstamp>
+    </comp>
+    <comp ref="C319">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>57F069A1</tstamp>
+    </comp>
+    <comp ref="C320">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/AC97/" tstamps="/576F6AA6/"/>
+      <tstamp>57F071BD</tstamp>
+    </comp>
+    <comp ref="P401">
+      <value>CONN_02X06</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x06</footprint>
+      <libsource lib="conn" part="CONN_02X06"/>
+      <sheetpath names="/PMOD Connector/" tstamps="/577ED8AD/"/>
+      <tstamp>577ED8B8</tstamp>
+    </comp>
+    <comp ref="FB401">
+      <value>FILTER</value>
+      <footprint>wbraun_smd:SMD-0805</footprint>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/PMOD Connector/" tstamps="/577ED8AD/"/>
+      <tstamp>577EDEB0</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PMOD Connector/" tstamps="/577ED8AD/"/>
+      <tstamp>577EDEF4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X06">
+      <description>Connector 02x06</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X06</fp>
+        <fp>Pin_Header_Angled_2X06</fp>
+        <fp>Socket_Strip_Straight_2X06</fp>
+        <fp>Socket_Strip_Angled_2X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wbraun_ic_lib" part="CRYSTAL_SMD_4">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL_SMD_4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FILTER">
+      <description>Filtre EMI</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR_SMALL">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="wbraun_ic_lib" part="JACK_TRRS_6PINS">
+      <description>audio jack TRRS 6 pins</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JACK_TRRS_6PINS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wbraun_ic_lib" part="LM4550">
+      <footprints>
+        <fp>48-LQFP</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM4550</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DVDD" type="power_in"/>
+        <pin num="2" name="XTL_IN" type="BiDi"/>
+        <pin num="3" name="XTL_OUT" type="BiDi"/>
+        <pin num="4" name="DVSS" type="power_in"/>
+        <pin num="5" name="SDATA_OUT" type="BiDi"/>
+        <pin num="6" name="BIT_CLK" type="BiDi"/>
+        <pin num="7" name="DVSS" type="power_in"/>
+        <pin num="8" name="SDATA_IN" type="BiDi"/>
+        <pin num="9" name="DVDD" type="power_in"/>
+        <pin num="10" name="SYNC" type="BiDi"/>
+        <pin num="11" name="RESET#" type="BiDi"/>
+        <pin num="12" name="PC_BEEP" type="BiDi"/>
+        <pin num="13" name="PHONE" type="BiDi"/>
+        <pin num="14" name="AUX_L" type="BiDi"/>
+        <pin num="15" name="AUX_R" type="BiDi"/>
+        <pin num="16" name="VIDEO_L" type="BiDi"/>
+        <pin num="17" name="VIDEO_R" type="BiDi"/>
+        <pin num="18" name="CD_L" type="BiDi"/>
+        <pin num="19" name="CD_GND" type="BiDi"/>
+        <pin num="20" name="CD_R" type="BiDi"/>
+        <pin num="21" name="MIC1" type="BiDi"/>
+        <pin num="22" name="MIC2" type="BiDi"/>
+        <pin num="23" name="LINE_IN_L" type="BiDi"/>
+        <pin num="24" name="LINE_IN_R" type="BiDi"/>
+        <pin num="25" name="AVDD" type="power_in"/>
+        <pin num="26" name="AVSS" type="power_in"/>
+        <pin num="27" name="VREF" type="power_in"/>
+        <pin num="28" name="VREF_OUT" type="power_out"/>
+        <pin num="29" name="NC" type="NotConnected"/>
+        <pin num="30" name="NC" type="NotConnected"/>
+        <pin num="31" name="NC" type="NotConnected"/>
+        <pin num="32" name="NC" type="NotConnected"/>
+        <pin num="33" name="3DN" type="BiDi"/>
+        <pin num="34" name="3DP" type="BiDi"/>
+        <pin num="35" name="LINE_OUT_L" type="BiDi"/>
+        <pin num="36" name="LINE_OUT_R" type="BiDi"/>
+        <pin num="37" name="MONO_OUT" type="BiDi"/>
+        <pin num="38" name="NC" type="NotConnected"/>
+        <pin num="39" name="HP_OUT_L" type="BiDi"/>
+        <pin num="40" name="HP_OUT_C" type="BiDi"/>
+        <pin num="41" name="HP_OUT_R" type="BiDi"/>
+        <pin num="42" name="NC" type="NotConnected"/>
+        <pin num="43" name="NC" type="NotConnected"/>
+        <pin num="44" name="NC" type="NotConnected"/>
+        <pin num="45" name="ID0#" type="BiDi"/>
+        <pin num="46" name="ID1#" type="BiDi"/>
+        <pin num="47" name="EAPD" type="BiDi"/>
+        <pin num="48" name="CIN" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="wbraun_ic_lib" part="MCP1640-*/CHY">
+      <footprints>
+        <fp>SOT-23-6</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1640-*/CHY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="V_FB" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+        <pin num="6" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wbraun_ic_lib" part="RCA_2">
+      <footprints>
+        <fp>RCA</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">RCA_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="wbraun_ic_lib">
+      <uri>/home/wbraun/projects/wbraun_kicad_library/wbraun_ic_lib.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/AC97/DOUT">
+      <node ref="U301" pin="5"/>
+      <node ref="P401" pin="6"/>
+    </net>
+    <net code="2" name="/AC97/DIN">
+      <node ref="U301" pin="8"/>
+      <node ref="P401" pin="5"/>
+    </net>
+    <net code="3" name="/AC97/SYNC">
+      <node ref="U301" pin="10"/>
+      <node ref="P401" pin="8"/>
+    </net>
+    <net code="4" name="/AC97/CLK">
+      <node ref="P401" pin="7"/>
+      <node ref="U301" pin="6"/>
+    </net>
+    <net code="5" name="/PMOD Connector/RESET">
+      <node ref="P401" pin="3"/>
+      <node ref="R303" pin="1"/>
+      <node ref="U301" pin="11"/>
+    </net>
+    <net code="6" name="Net-(L201-Pad2)">
+      <node ref="U201" pin="1"/>
+      <node ref="L201" pin="2"/>
+    </net>
+    <net code="7" name="Net-(R201-Pad2)">
+      <node ref="R202" pin="1"/>
+      <node ref="R201" pin="2"/>
+      <node ref="U201" pin="4"/>
+    </net>
+    <net code="8" name="+5V">
+      <node ref="C203" pin="1"/>
+      <node ref="R316" pin="1"/>
+      <node ref="FB201" pin="2"/>
+      <node ref="U301" pin="25"/>
+      <node ref="C320" pin="1"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="X301" pin="4"/>
+      <node ref="X301" pin="2"/>
+      <node ref="C320" pin="2"/>
+      <node ref="C319" pin="2"/>
+      <node ref="C308" pin="2"/>
+      <node ref="U301" pin="26"/>
+      <node ref="U301" pin="7"/>
+      <node ref="U301" pin="4"/>
+      <node ref="R311" pin="2"/>
+      <node ref="R309" pin="2"/>
+      <node ref="R310" pin="1"/>
+      <node ref="C314" pin="1"/>
+      <node ref="C315" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="P401" pin="9"/>
+      <node ref="P401" pin="10"/>
+      <node ref="J301" pin="4"/>
+      <node ref="R308" pin="2"/>
+      <node ref="R306" pin="2"/>
+      <node ref="R305" pin="2"/>
+      <node ref="C302" pin="1"/>
+      <node ref="C305" pin="1"/>
+      <node ref="R312" pin="1"/>
+      <node ref="R313" pin="2"/>
+      <node ref="C303" pin="2"/>
+      <node ref="C309" pin="1"/>
+      <node ref="P302" pin="1"/>
+      <node ref="P301" pin="1"/>
+      <node ref="C201" pin="2"/>
+      <node ref="R202" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="C318" pin="2"/>
+      <node ref="U201" pin="2"/>
+    </net>
+    <net code="10" name="+3V3">
+      <node ref="L201" pin="1"/>
+      <node ref="C201" pin="1"/>
+      <node ref="U301" pin="1"/>
+      <node ref="U201" pin="6"/>
+      <node ref="FB401" pin="2"/>
+      <node ref="R301" pin="1"/>
+      <node ref="R304" pin="2"/>
+      <node ref="R303" pin="2"/>
+      <node ref="U201" pin="3"/>
+      <node ref="C401" pin="1"/>
+      <node ref="C319" pin="1"/>
+      <node ref="U301" pin="9"/>
+    </net>
+    <net code="11" name="Net-(C202-Pad1)">
+      <node ref="C202" pin="1"/>
+      <node ref="R201" pin="1"/>
+      <node ref="U201" pin="5"/>
+      <node ref="FB201" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C309-Pad2)">
+      <node ref="C309" pin="2"/>
+      <node ref="U301" pin="40"/>
+    </net>
+    <net code="13" name="/AC97/LINE_OUT_L">
+      <node ref="C313" pin="2"/>
+      <node ref="U301" pin="35"/>
+    </net>
+    <net code="14" name="/AC97/LINE_OUT_R">
+      <node ref="C312" pin="2"/>
+      <node ref="U301" pin="36"/>
+    </net>
+    <net code="15" name="Net-(P302-Pad3)">
+      <node ref="P302" pin="3"/>
+      <node ref="R314" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C313-Pad1)">
+      <node ref="C315" pin="1"/>
+      <node ref="P301" pin="2"/>
+      <node ref="R311" pin="1"/>
+      <node ref="C313" pin="1"/>
+    </net>
+    <net code="17" name="Net-(C312-Pad1)">
+      <node ref="R310" pin="2"/>
+      <node ref="C312" pin="1"/>
+      <node ref="P301" pin="3"/>
+      <node ref="C314" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C303-Pad1)">
+      <node ref="R307" pin="2"/>
+      <node ref="C303" pin="1"/>
+    </net>
+    <net code="19" name="Net-(R307-Pad1)">
+      <node ref="U301" pin="37"/>
+      <node ref="R307" pin="1"/>
+    </net>
+    <net code="20" name="Net-(P302-Pad2)">
+      <node ref="R315" pin="1"/>
+      <node ref="P302" pin="2"/>
+    </net>
+    <net code="21" name="/AC97/LINE_IN_L">
+      <node ref="U301" pin="23"/>
+      <node ref="C317" pin="2"/>
+    </net>
+    <net code="22" name="/AC97/LINE_IN_R">
+      <node ref="U301" pin="24"/>
+      <node ref="C316" pin="2"/>
+    </net>
+    <net code="23" name="Net-(C317-Pad1)">
+      <node ref="C317" pin="1"/>
+      <node ref="R315" pin="2"/>
+      <node ref="R313" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C316-Pad1)">
+      <node ref="C316" pin="1"/>
+      <node ref="R314" pin="2"/>
+      <node ref="R312" pin="2"/>
+    </net>
+    <net code="25" name="Net-(C304-Pad2)">
+      <node ref="C304" pin="2"/>
+      <node ref="U301" pin="34"/>
+    </net>
+    <net code="26" name="Net-(C304-Pad1)">
+      <node ref="U301" pin="33"/>
+      <node ref="C304" pin="1"/>
+    </net>
+    <net code="27" name="Net-(R306-Pad1)">
+      <node ref="R306" pin="1"/>
+      <node ref="U301" pin="47"/>
+    </net>
+    <net code="28" name="Net-(R305-Pad1)">
+      <node ref="R305" pin="1"/>
+      <node ref="U301" pin="48"/>
+    </net>
+    <net code="29" name="Net-(R304-Pad1)">
+      <node ref="U301" pin="46"/>
+      <node ref="U301" pin="45"/>
+      <node ref="R304" pin="1"/>
+    </net>
+    <net code="30" name="/AC97/phone_l_out">
+      <node ref="C306" pin="1"/>
+      <node ref="C307" pin="2"/>
+      <node ref="U301" pin="39"/>
+    </net>
+    <net code="31" name="/AC97/mic_out">
+      <node ref="C301" pin="1"/>
+      <node ref="U301" pin="21"/>
+    </net>
+    <net code="32" name="/AC97/phone_r_out">
+      <node ref="C311" pin="2"/>
+      <node ref="U301" pin="41"/>
+      <node ref="C310" pin="1"/>
+    </net>
+    <net code="33" name="Net-(U301-Pad29)">
+      <node ref="U301" pin="29"/>
+    </net>
+    <net code="34" name="Net-(C318-Pad1)">
+      <node ref="U301" pin="27"/>
+      <node ref="R316" pin="2"/>
+      <node ref="C318" pin="1"/>
+    </net>
+    <net code="35" name="/AC97/AUDIO_NC">
+      <node ref="U301" pin="18"/>
+      <node ref="U301" pin="15"/>
+      <node ref="U301" pin="14"/>
+      <node ref="U301" pin="13"/>
+      <node ref="U301" pin="22"/>
+      <node ref="U301" pin="12"/>
+      <node ref="U301" pin="16"/>
+      <node ref="U301" pin="20"/>
+      <node ref="C308" pin="1"/>
+      <node ref="U301" pin="19"/>
+      <node ref="U301" pin="17"/>
+    </net>
+    <net code="36" name="Net-(U301-Pad38)">
+      <node ref="U301" pin="38"/>
+    </net>
+    <net code="37" name="Net-(U301-Pad28)">
+      <node ref="U301" pin="28"/>
+    </net>
+    <net code="38" name="Net-(U301-Pad44)">
+      <node ref="U301" pin="44"/>
+    </net>
+    <net code="39" name="Net-(U301-Pad43)">
+      <node ref="U301" pin="43"/>
+    </net>
+    <net code="40" name="Net-(U301-Pad42)">
+      <node ref="U301" pin="42"/>
+    </net>
+    <net code="41" name="Net-(U301-Pad32)">
+      <node ref="U301" pin="32"/>
+    </net>
+    <net code="42" name="Net-(U301-Pad31)">
+      <node ref="U301" pin="31"/>
+    </net>
+    <net code="43" name="Net-(U301-Pad30)">
+      <node ref="U301" pin="30"/>
+    </net>
+    <net code="44" name="Net-(J301-Pad6)">
+      <node ref="J301" pin="6"/>
+    </net>
+    <net code="45" name="Net-(J301-Pad5)">
+      <node ref="J301" pin="5"/>
+    </net>
+    <net code="46" name="/AC97/phone_right">
+      <node ref="C310" pin="2"/>
+      <node ref="J301" pin="3"/>
+      <node ref="R309" pin="1"/>
+      <node ref="C311" pin="1"/>
+    </net>
+    <net code="47" name="/AC97/phone_left">
+      <node ref="C306" pin="2"/>
+      <node ref="R308" pin="1"/>
+      <node ref="C307" pin="1"/>
+      <node ref="J301" pin="2"/>
+    </net>
+    <net code="48" name="/AC97/mic">
+      <node ref="C301" pin="2"/>
+      <node ref="R301" pin="2"/>
+      <node ref="J301" pin="1"/>
+    </net>
+    <net code="49" name="Net-(C305-Pad2)">
+      <node ref="C305" pin="2"/>
+      <node ref="U301" pin="2"/>
+      <node ref="X301" pin="1"/>
+      <node ref="R302" pin="1"/>
+    </net>
+    <net code="50" name="Net-(C302-Pad2)">
+      <node ref="C302" pin="2"/>
+      <node ref="R302" pin="2"/>
+      <node ref="U301" pin="3"/>
+      <node ref="X301" pin="3"/>
+    </net>
+    <net code="51" name="/PMOD Connector/VCC">
+      <node ref="FB401" pin="1"/>
+      <node ref="P401" pin="11"/>
+      <node ref="P401" pin="12"/>
+    </net>
+    <net code="52" name="Net-(P401-Pad1)">
+      <node ref="P401" pin="1"/>
+    </net>
+    <net code="53" name="Net-(P401-Pad2)">
+      <node ref="P401" pin="2"/>
+    </net>
+    <net code="54" name="Net-(P401-Pad4)">
+      <node ref="P401" pin="4"/>
+    </net>
+  </nets>
+</export>

@@ -1,4 +1,4 @@
-update=Wednesday, June 22, 2016 'AMt' 01:54:56 AM
+update=Tue 22 Nov 2016 09:13:27 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/Users/wbraun/Projects/wbraun_kicad_library/wbraun_ic_lib
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../schematic/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
