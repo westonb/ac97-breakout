@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:wbraun_ic_lib
 LIBS:ac97_pmod-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -102,4 +102,48 @@ Wire Wire Line
 	3300 2700 3300 4400
 Wire Wire Line
 	3300 4400 2800 4400
+$Comp
+L mounting-hole-nc J?
+U 1 1 59FC94A8
+P 6600 3100
+F 0 "J?" H 6878 3153 60  0000 L CNN
+F 1 "mounting-hole-nc" H 6878 3047 60  0000 L CNN
+F 2 "" H 6600 3100 60  0001 C CNN
+F 3 "" H 6600 3100 60  0001 C CNN
+	1    6600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting-hole-nc J?
+U 1 1 59FC960F
+P 8000 3100
+F 0 "J?" H 8278 3153 60  0000 L CNN
+F 1 "mounting-hole-nc" H 8278 3047 60  0000 L CNN
+F 2 "" H 8000 3100 60  0001 C CNN
+F 3 "" H 8000 3100 60  0001 C CNN
+	1    8000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting-hole-nc J?
+U 1 1 59FC970B
+P 6550 3700
+F 0 "J?" H 6828 3753 60  0000 L CNN
+F 1 "mounting-hole-nc" H 6828 3647 60  0000 L CNN
+F 2 "" H 6550 3700 60  0001 C CNN
+F 3 "" H 6550 3700 60  0001 C CNN
+	1    6550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting-hole-nc J?
+U 1 1 59FC97B8
+P 8000 3700
+F 0 "J?" H 8278 3753 60  0000 L CNN
+F 1 "mounting-hole-nc" H 8278 3647 60  0000 L CNN
+F 2 "" H 8000 3700 60  0001 C CNN
+F 3 "" H 8000 3700 60  0001 C CNN
+	1    8000 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
