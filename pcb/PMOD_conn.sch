@@ -1,34 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:wbraun_ic_lib
+EESchema Schematic File Version 4
 LIBS:ac97_pmod-cache
 EELAYER 26 0
 EELAYER END
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_02X06 P401
+L ac97_pmod-rescue:CONN_02X06-RESCUE-ac97_pmod P401
 U 1 1 577ED8B8
 P 3150 2650
 F 0 "P401" H 3150 3000 50  0000 C CNN
@@ -56,7 +26,7 @@ F 3 "" H 3150 1450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
+L ac97_pmod-rescue:GND-RESCUE-ac97_pmod #PWR040
 U 1 1 577ED8FB
 P 3800 2800
 F 0 "#PWR040" H 3800 2550 50  0001 C CNN
@@ -67,7 +37,7 @@ F 3 "" H 3800 2800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR041
+L ac97_pmod-rescue:GND-RESCUE-ac97_pmod #PWR041
 U 1 1 577ED912
 P 2500 2800
 F 0 "#PWR041" H 2500 2550 50  0001 C CNN
@@ -112,7 +82,7 @@ DIN
 Text HLabel 2800 2500 0    60   Input ~ 0
 RESET
 $Comp
-L FILTER FB401
+L ac97_pmod-rescue:FILTER-RESCUE-ac97_pmod FB401
 U 1 1 577EDEB0
 P 5250 1900
 F 0 "FB401" H 5250 2050 50  0000 C CNN
@@ -123,7 +93,7 @@ F 3 "" H 5250 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C401
+L ac97_pmod-rescue:C-RESCUE-ac97_pmod C401
 U 1 1 577EDEF4
 P 5700 2250
 F 0 "C401" H 5725 2350 50  0000 L CNN
@@ -134,7 +104,7 @@ F 3 "" H 5700 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR042
+L ac97_pmod-rescue:+3V3-RESCUE-ac97_pmod #PWR042
 U 1 1 577EDF28
 P 5700 1800
 F 0 "#PWR042" H 5700 1650 50  0001 C CNN
@@ -145,7 +115,7 @@ F 3 "" H 5700 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
+L ac97_pmod-rescue:GND-RESCUE-ac97_pmod #PWR043
 U 1 1 577EDF45
 P 5700 2500
 F 0 "#PWR043" H 5700 2250 50  0001 C CNN

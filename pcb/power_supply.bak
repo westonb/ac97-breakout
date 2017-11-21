@@ -1,34 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:wbraun_ic_lib
+EESchema Schematic File Version 4
 LIBS:ac97_pmod-cache
 EELAYER 26 0
 EELAYER END
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCP1640-*/CHY U201
+L wbraun_lib:MCP1640 U201
 U 1 1 576F65ED
 P 3050 2400
 F 0 "U201" H 2850 2650 60  0000 C CNN
@@ -56,7 +26,7 @@ F 3 "" H 3025 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C201
+L ac97_pmod-rescue:C-RESCUE-ac97_pmod C201
 U 1 1 576F669D
 P 2000 2450
 F 0 "C201" H 2025 2550 50  0000 L CNN
@@ -67,7 +37,7 @@ F 3 "" H 2000 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L INDUCTOR_SMALL L201
+L ac97_pmod-rescue:INDUCTOR_SMALL-RESCUE-ac97_pmod L201
 U 1 1 576F66DD
 P 3050 1900
 F 0 "L201" H 3050 2000 50  0000 C CNN
@@ -78,7 +48,7 @@ F 3 "" H 3050 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R201
+L ac97_pmod-rescue:R-RESCUE-ac97_pmod R201
 U 1 1 576F6712
 P 3900 2550
 F 0 "R201" V 3980 2550 50  0000 C CNN
@@ -89,7 +59,7 @@ F 3 "" H 3900 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R202
+L ac97_pmod-rescue:R-RESCUE-ac97_pmod R202
 U 1 1 576F6764
 P 3900 2950
 F 0 "R202" V 3980 2950 50  0000 C CNN
@@ -100,7 +70,7 @@ F 3 "" H 3900 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C202
+L ac97_pmod-rescue:C-RESCUE-ac97_pmod C202
 U 1 1 576F6793
 P 4200 2550
 F 0 "C202" H 4225 2650 50  0000 L CNN
@@ -111,7 +81,7 @@ F 3 "" H 4200 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L ac97_pmod-rescue:GND-RESCUE-ac97_pmod #PWR01
 U 1 1 576F6853
 P 2500 2600
 F 0 "#PWR01" H 2500 2350 50  0001 C CNN
@@ -122,7 +92,7 @@ F 3 "" H 2500 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L ac97_pmod-rescue:GND-RESCUE-ac97_pmod #PWR02
 U 1 1 576F6879
 P 3900 3200
 F 0 "#PWR02" H 3900 2950 50  0001 C CNN
@@ -133,7 +103,7 @@ F 3 "" H 3900 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L ac97_pmod-rescue:GND-RESCUE-ac97_pmod #PWR03
 U 1 1 576F689F
 P 4200 2800
 F 0 "#PWR03" H 4200 2550 50  0001 C CNN
@@ -144,7 +114,7 @@ F 3 "" H 4200 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L ac97_pmod-rescue:GND-RESCUE-ac97_pmod #PWR04
 U 1 1 576F68E1
 P 2000 2700
 F 0 "#PWR04" H 2000 2450 50  0001 C CNN
@@ -162,9 +132,11 @@ Wire Wire Line
 	2500 1900 2500 2400
 Connection ~ 2500 2300
 $Comp
-L +3V3 #PWR05
+L ac97_pmod-rescue:+3V3-RESCUE-ac97_pmod #PWR05
 U 1 1 576F6945
 P 2000 2200
+AR Path="/576F6945" Ref="#PWR05"  Part="1" 
+AR Path="/576B2442/576F6945" Ref="#PWR05"  Part="1" 
 F 0 "#PWR05" H 2000 2050 50  0001 C CNN
 F 1 "+3V3" H 2000 2340 50  0000 C CNN
 F 2 "" H 2000 2200 50  0000 C CNN
@@ -173,7 +145,7 @@ F 3 "" H 2000 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR06
+L ac97_pmod-rescue:+5V-RESCUE-ac97_pmod #PWR06
 U 1 1 576F696B
 P 5400 2300
 F 0 "#PWR06" H 5400 2150 50  0001 C CNN
@@ -213,7 +185,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 2500 2500 2600
 $Comp
-L FILTER FB201
+L ac97_pmod-rescue:FILTER-RESCUE-ac97_pmod FB201
 U 1 1 577EE17B
 P 4850 2400
 F 0 "FB201" H 4850 2550 50  0000 C CNN
@@ -224,7 +196,7 @@ F 3 "" H 4850 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C203
+L ac97_pmod-rescue:C-RESCUE-ac97_pmod C203
 U 1 1 577EE1B6
 P 5400 2650
 F 0 "C203" H 5425 2750 50  0000 L CNN
@@ -235,7 +207,7 @@ F 3 "" H 5400 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L ac97_pmod-rescue:GND-RESCUE-ac97_pmod #PWR07
 U 1 1 577EE208
 P 5400 2900
 F 0 "#PWR07" H 5400 2650 50  0001 C CNN
@@ -254,7 +226,7 @@ Wire Wire Line
 	5400 2800 5400 2900
 Connection ~ 5400 2400
 $Comp
-L CP C204
+L ac97_pmod-rescue:CP-RESCUE-ac97_pmod C204
 U 1 1 59E25F02
 P 1650 2450
 F 0 "C204" H 1675 2550 50  0000 L CNN
@@ -265,7 +237,7 @@ F 3 "" H 1650 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C205
+L ac97_pmod-rescue:CP-RESCUE-ac97_pmod C205
 U 1 1 59E260A8
 P 5750 2650
 F 0 "C205" H 5775 2750 50  0000 L CNN
@@ -276,7 +248,7 @@ F 3 "" H 5750 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L ac97_pmod-rescue:GND-RESCUE-ac97_pmod #PWR08
 U 1 1 59E26137
 P 5750 2900
 F 0 "#PWR08" H 5750 2650 50  0001 C CNN
@@ -292,7 +264,7 @@ Wire Wire Line
 	5750 2800 5750 2900
 Connection ~ 2000 2300
 $Comp
-L GND #PWR09
+L ac97_pmod-rescue:GND-RESCUE-ac97_pmod #PWR09
 U 1 1 59E2623D
 P 1650 2700
 F 0 "#PWR09" H 1650 2450 50  0001 C CNN
