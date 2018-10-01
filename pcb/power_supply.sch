@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L wbraun_lib:MCP1640 U201
+L ac97_pmod-rescue:MCP1640-RESCUE-ac97_pmod U201
 U 1 1 576F65ED
 P 3050 2400
 F 0 "U201" H 2850 2650 60  0000 C CNN

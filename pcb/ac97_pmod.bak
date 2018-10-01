@@ -95,17 +95,6 @@ F 3 "" H 8000 3100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ac97_pmod-rescue:mounting-hole-nc-RESCUE-ac97_pmod J101
-U 1 1 59FC970B
-P 6550 3700
-F 0 "J101" H 6828 3753 60  0000 L CNN
-F 1 "mounting-hole-nc" H 6828 3647 60  0000 L CNN
-F 2 "wbraun_smd:M3-small-mounting-hole" H 6550 3700 60  0001 C CNN
-F 3 "" H 6550 3700 60  0001 C CNN
-	1    6550 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L ac97_pmod-rescue:mounting-hole-nc-RESCUE-ac97_pmod J104
 U 1 1 59FC97B8
 P 8000 3700

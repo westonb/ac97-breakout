@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ac97_pmod-rescue)(type Legacy)(uri ${KIPRJMOD}/ac97_pmod-rescue.lib)(options "")(descr ""))
+)
